@@ -1,0 +1,22 @@
+{
+    "name": "morpheusbr/login",
+    "description": "Sistema Login",
+    "type": "project",
+    "keywords": ["login","user"],
+    "homepage": "https://github.com/morpheusbr/login",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Vieira",
+            "email": "fabio.dj.rs@gmail.com",
+	    "homepage": "https://www.facebook.com/djfabiovieirars",	
+	    "role": "Developer"
+	    
+        }
+    ],
+    "require": {
+    "php": ">=5.3.0"
+    }
+	
+}
