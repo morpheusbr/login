@@ -1,0 +1,29 @@
+datasource mysql {
+  provider = "mysql"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  atualizado DateTime @updatedAt
+  criado     DateTime @default(now())
+  id         String   @id @default(cuid())
+  nome       String
+  password   String
+  roles      Json
+  sobrenome  String?
+  username   String   @unique
+}
+
+model IngressosPista {
+  atualizado DateTime @updatedAt
+  checkin    Boolean?
+  comprador  String
+  criado     DateTime @default(now())
+  id         String   @id @default(cuid())
+  status     Boolean?
+  Valor      Int
+}

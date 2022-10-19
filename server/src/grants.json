@@ -1,0 +1,92 @@
+[
+  {
+    "role": "Usuario",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Usuario",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Usuario",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Usuario",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Usuario",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "IngressosPista",
+    "action": "read:own",
+    "attributes": "*,!id,!criado,!atualizado,!comprador,!Valor,!status,!checkin"
+  },
+  {
+    "role": "Administrador",
+    "resource": "IngressosPista",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "IngressosPista",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "IngressosPista",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Administrador",
+    "resource": "IngressosPista",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
